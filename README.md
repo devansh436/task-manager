@@ -17,18 +17,6 @@ A sleek and responsive task management web app built with vanilla JavaScript, Ex
 - Backend: Node.js, Express.js
 - Database: MongoDB (using native driver)
 
-## 📂 Project Structure
-
-.
-├── public/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-├── db.js
-├── server.js
-└── README.md
-
-
 ## 🛠 Setup Instructions
 
 1. Clone the repo  
