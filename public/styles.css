@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#allTasks {
+    margin: 20px;
+}
+main {
+    min-height: 550px;
+}
+#noTasksBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    text-align: center;
+    opacity: 0.8;
+}
+.task-box {
+    min-width: 250px;
+    max-width: 350px;
+    min-height: 150px;
+    max-height: 200px;
+    background-color: #212529;
+    border: 1px solid #444;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.task-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.task-box-title {
+    font-size: 1.25rem;
+    color: #0dcaf0;
+}
+.task-box-body {
+    font-size: 1rem;
+    color: #f8f9fa;
+}
+#wrapper {
+    min-width: 768px;
+}
